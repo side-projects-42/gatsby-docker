@@ -1,5 +1,5 @@
 FROM alpine:edge
-MAINTAINER José Moreira <josemoreiravarzim@gmail.com>
+MAINTAINER Bryan Guner <bryan.guner@gmail.com>
 
 COPY nginx-boot.sh /sbin/nginx-boot
 RUN chmod +x /sbin/nginx-boot
